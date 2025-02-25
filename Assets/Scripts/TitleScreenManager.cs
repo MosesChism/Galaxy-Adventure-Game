@@ -3,13 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreenManager : MonoBehaviour
 {
-    public void StartGame()
+    public void StartGame() // ✅ Must be public & have no parameters
     {
-        SceneManager.LoadScene("MainMenu"); // Replace with your actual game scene name
+        Debug.Log("Start Button Clicked!");
+        SceneManager.LoadScene("Main Menu"); // Replace with your next scene name
     }
 
     public void ExitGame()
     {
+        Debug.Log("Exit Button Clicked!");
         Application.Quit();
     }
 }
