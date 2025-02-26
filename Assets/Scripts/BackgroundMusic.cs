@@ -2,13 +2,18 @@ using UnityEngine;
 
 public class BackgroundMusic : MonoBehaviour
 {
-    public AudioSource musicSource;
+    private static BackgroundMusic instance;
 
-    void Start()
+    void Awake()
     {
-        if (!musicSource.isPlaying)
+        if (instance == null)
         {
-            musicSource.Play(); // Start the music if it's not playing
+            instance = this;
+            DontDestroyOnLoad(gameObject); // Keeps music playing across scenes
+        }
+        else
+        {
+            Destroy(gameObject); // Prevents duplicate music players
         }
     }
 }
