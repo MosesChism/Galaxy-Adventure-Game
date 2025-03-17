@@ -3,7 +3,16 @@ guid: bc2b6b698c16a8041a773961aedab0f2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - genderDropdown: {instanceID: 0}
+  - nameInput: {instanceID: 0}
+  - ageInput: {instanceID: 0}
+  - baseAvatarRenderer: {instanceID: 0}
+  - defaultBaseSprite: {fileID: -1282048065, guid: 617df2ae1e893424eafb7d2c320a8470, type: 3}
+  - hairRenderer: {instanceID: 0}
+  - shirtRenderer: {instanceID: 0}
+  - pantsRenderer: {instanceID: 0}
+  - shoesRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

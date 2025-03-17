@@ -1,0 +1,2774 @@
+fileFormatVersion: 2
+guid: 33206392abd5904478f6007a1c85e0fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c463289e0efce4d84a7a2ad05b3f0c
+      internalID: -34575846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3dff9ea6924cd4e80dae38881cfd92
+      internalID: -2070454815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 179
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baa99963b155c641a0fcc368bd51d53
+      internalID: -655429283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3dc8f595837d41a41265aa29fc86f
+      internalID: -1442079306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 180
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31c2ecfed7666f4ebe6bb3bb2f559c3
+      internalID: 1303667633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff762ce557b5e5a42a2cecd715f62bed
+      internalID: 903430829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 179
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2b879ac0686c946b12d5622559dc76
+      internalID: -812877938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f6bd8b42683814db26af9b6fda5bf0
+      internalID: 1978103780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 180
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5f47b919731343922f8e576eb5191
+      internalID: -1500581199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf549549fe6524e8214ae012619760
+      internalID: -535153641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 179
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d066d2f315a7d1542a35db4910c1aa64
+      internalID: 1283092851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 178
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8631466a0825b96459ba507e5241bb57
+      internalID: 76662844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb114d7dfb5646f45b923698aa382937
+      internalID: 1576790363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 162
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0280647b237b0248a9373bc1688b60c
+      internalID: -1407435519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2e51fcf4989f646b0f71d749c12711
+      internalID: 2132851490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5aaded8d6ea1e4a94a90f47ce3b27d
+      internalID: -1913590365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddef2dfbe651904bb1d4cfa11dd47ec
+      internalID: -300217128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 162
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de47d22787db59948969e6342a74396d
+      internalID: 207844803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392a627b5e79f01439713af16e72b1ad
+      internalID: 894376515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00765ff478a339c409818972231e6e06
+      internalID: 534358525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc5e68fe445c384c9a6fd82ee2e0c27
+      internalID: 1763156326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 162
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd9cf2af3b99e47a225ea33297522b
+      internalID: 804689951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bc7bde8ef082a40b834aa7f5e9b1ed
+      internalID: 1969567346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 163
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55829fe547015e64892fdeb3e76f6893
+      internalID: -1598848549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 144
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9462ba1489660a44a75122c9ee467a1
+      internalID: 2138573007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 144
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f4f2f00d5f11a43982d7469e10b7be
+      internalID: 983091315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 147
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1fc5d19a87bbb42b318b2c03d0c49c
+      internalID: 995606133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 147
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469d69077f9d4ec409dc033d354ee38c
+      internalID: 596932216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 144
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b70e3d7600ff14587fe202920e4c7c
+      internalID: 134393905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 144
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3373ae1f37b614da5291e53ba8a81b
+      internalID: 1692557288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028e20ba64101941b28558edc7e6fcd
+      internalID: -1312996461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_31
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 147
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5645f215120b2e744bbd3ef468395306
+      internalID: 764275234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_32
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 144
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8352ba745cee14b83a84f1db4cbd79
+      internalID: 751134713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 144
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a692028d848a547a9fa25ff3a92869
+      internalID: 1404639991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 147
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f9cb6b0032cb945ba45be91f607e3f
+      internalID: 407070690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_35
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 147
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40ddd457dfff0c4c9c29ddf5f2d238b
+      internalID: -1230736627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07c4b32b1287d44b7f993b6a4c3db1
+      internalID: -457507244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f6608182967349a4e015be7721869
+      internalID: 1781005322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_38
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e724222ce09f4eb1eba818f8599a3
+      internalID: 1113206661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79afbf8a24166cb4fab3d251c30d699a
+      internalID: 111717646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e3aabb9a5e9149b6e3687a9139836
+      internalID: 91335316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61073694fb8745b4dbf0746a4735d98d
+      internalID: 1809174436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c7b3b3620d23b46994a8645103e212
+      internalID: 1833218757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af1ca88da9df7e4a9288685eec02803
+      internalID: -1434217991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2971fb94bf685241a24b5374b56b59e
+      internalID: 1935052417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 129
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c6c88de3192a0408235556859752a1
+      internalID: 1222409461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e586d75abcd87b4f9707aaa61df4de3
+      internalID: 130663237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 129
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc42facb9b00fc43b91bb1b66151af2
+      internalID: 1401417598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 110
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe16fb7a8a0b1f44484c005496777ba3
+      internalID: 1418948838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_49
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 112
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd856000125d8478cf33d44f6fbba0
+      internalID: -96357120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0216829ca04644894c998360f9ee54
+      internalID: 2114125427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9910f1c687327c54e995437fe9fd6ef0
+      internalID: 1941906245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 110
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe40fb317a1c9d4cb50f5c839ed4f73
+      internalID: 1448434610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_53
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 112
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce1aae853124a4438aaa8b1c7ba42a7
+      internalID: -320427254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_54
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1ef3a2724a8d43987241723dbf9d3
+      internalID: -62174179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_55
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d56b360fbecb341b45e2bc6e99848c
+      internalID: -1980150592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_56
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9271e444915b949ae3435661bdae9d
+      internalID: -2051280353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_57
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 112
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08edf93bd439c3a4cb659c21a11fbd3e
+      internalID: 958243019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_58
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ea5003d5cd9fc4a83002df45ad4b74
+      internalID: 2015036504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69c26dd16b9b34094013eaadd9cf67
+      internalID: -1058052910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 95
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7319d9c2d0dbe42ac663c7dc000a83
+      internalID: 87964767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_61
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c1b095f4e8d2148b2b4d64ef71ec5c
+      internalID: 1354068747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_62
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 94
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718bb389a2b1071408ed76bc44bd0ad0
+      internalID: -275446803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_63
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad32aaf478f4ef43a2b710c8ee8f14b
+      internalID: -707251253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 95
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734cdb7ba1137324ebca5a4c889ae347
+      internalID: 363279055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc158bb9ac83bef4c9676b917468bbd6
+      internalID: -29904686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_66
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 94
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ce6299d9c00e489143462d0c5dd24
+      internalID: -1833425633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_67
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd34817fb8a6b5f48b0b9a9107bc8547
+      internalID: 41680634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_68
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 95
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c52a936a3bc444cb71917012fb1e4d
+      internalID: -2059920082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_69
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56ebcd6b3d56a14198710fd891738a3
+      internalID: 370233367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_70
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 94
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67215b03028a4ea47b1f43991024082e
+      internalID: -1972686660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 93
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d2056d9fc0604dbe22cc4ce584378
+      internalID: -153881690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 76
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633f020192649864b9238325142f3bf4
+      internalID: 2079368881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_73
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 77
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad08d2cd97679c4aac45bddf840a901
+      internalID: -690793260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_74
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb6f802a1d2e2c47be96644e2dde527
+      internalID: -1448682053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9410522bc2fb7c047b546b632a10ab28
+      internalID: -733221016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_76
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1624566540d2a049b492d578d57e562
+      internalID: -1537365090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_77
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 77
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19ca12df986f474791e9061cb68d0c1
+      internalID: 23298266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_78
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3bb5b068bb5a5479a69aa87bb6ca91
+      internalID: -2655799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_79
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d66cc0d7887bc4e9fe03a2a8b73337
+      internalID: -647895234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 76
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34def0b2a15c6c943a613422da7581b7
+      internalID: -1477660385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_81
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 77
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b2916361601344987cffca881662d0
+      internalID: 38753238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_82
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0a13f9f1937e64a863e1f8f62a8468
+      internalID: -721959246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_83
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 78
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0f51b245e6f6e47a5983c9ba388618
+      internalID: 947590928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 59
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9399c2886057cd747aa006bfddf18502
+      internalID: 223559549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_85
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 59
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d61491a8e5078468186decfc9fa9e4
+      internalID: -1601047173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_86
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 62
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80275b14671e42248839dcfe0d64ba5a
+      internalID: -1537035930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_87
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 62
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdde4ec5146184458ac1f887143fc8a
+      internalID: -1780649783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_88
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 59
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd9f30074c90c44bbef547ffb900dc2
+      internalID: 175039760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_89
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 59
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d78955b14417443b629bce8981cd33
+      internalID: 612866209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_90
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 62
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc44c613cefbb242947da4833bc3997
+      internalID: -203205811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_91
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 62
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3d6491103bf340805e394e4f9d377
+      internalID: 16450463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_92
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 59
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161647dd782057649ab76209c4e0b1e4
+      internalID: 2009374211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 59
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc98822aa1c994f9fdd0122397ae5f
+      internalID: 453991736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_94
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 62
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ea58704672ab64493c5f5c4cdb807c
+      internalID: -1223226837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_95
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 62
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ebed462f8ef884da506114138e6ce6
+      internalID: 587766967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4363f88cff31c4f96021f1b86a580c
+      internalID: 1734507246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_97
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b9018a8d1f3c44cbd8651ee7443723
+      internalID: -720729780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_98
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87fd5b3a28c39d40941829e93e8b7e5
+      internalID: -1070069631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_99
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ef3987950c594498fbfbcafa052215
+      internalID: -1884194090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_100
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33616a524223c44fa9619b9030e21fe
+      internalID: -1922530854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_101
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef65fbe23a3f546a10d27022de87e6
+      internalID: -1968762404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_102
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6d6c8ff05b2c46a70bc15e8856d70
+      internalID: -1340371177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_103
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e2244e90fe314d8c79029992892db
+      internalID: 810685495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_104
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46539e6e5ca6bed44a1850a0169008bd
+      internalID: -1234223996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 44
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6157d4461305c459bf674359c36afa
+      internalID: 882827273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_106
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c23451d3a1bdc1468014472f6d57318
+      internalID: -1596418461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_107
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 44
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef64d814a0ef1841bf12fecb93556b1
+      internalID: 158509857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_108
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f16deb0cd6a2f4a8332f65a8ffa64c
+      internalID: 799980758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_109
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 27
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0739fdc87a1e74395a590a3e970181
+      internalID: -1041248002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_110
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2911c712008aab548af11b9831bd1a48
+      internalID: -7597487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_111
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066a6ec5f6668343a4fc1445b27f328
+      internalID: -2092223577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_112
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 25
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429fb422167a9a840a61b44860a5f244
+      internalID: -795165349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_113
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 27
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f56b7c9f8afca42853f89949e17606
+      internalID: -1945343593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_114
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3892986d4c3314097ee6737af33c85
+      internalID: -1870317163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_115
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a601bd417d6d5944acdc20862350352
+      internalID: 1847894857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_116
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 25
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdde9506334aa74782c07ef3949c0b9
+      internalID: -838528935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_117
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 27
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744fbc6813da6524e833ef08c7809189
+      internalID: 719384000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_118
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6822595146ebbaf4f87dc9567e87afaf
+      internalID: -1051722194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeChar_shirts_119
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 25
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98ba545c37449946946f616216bd34e
+      internalID: 585942095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      roguelikeChar_shirts_91: 16450463
+      roguelikeChar_shirts_3: -1442079306
+      roguelikeChar_shirts_12: 1576790363
+      roguelikeChar_shirts_95: 587766967
+      roguelikeChar_shirts_87: -1780649783
+      roguelikeChar_shirts_68: -2059920082
+      roguelikeChar_shirts_78: -2655799
+      roguelikeChar_shirts_4: 1303667633
+      roguelikeChar_shirts_112: -795165349
+      roguelikeChar_shirts_69: 370233367
+      roguelikeChar_shirts_61: 1354068747
+      roguelikeChar_shirts_88: 175039760
+      roguelikeChar_shirts_97: -720729780
+      roguelikeChar_shirts_13: -1407435519
+      roguelikeChar_shirts_18: 894376515
+      roguelikeChar_shirts_52: 1448434610
+      roguelikeChar_shirts_8: -1500581199
+      roguelikeChar_shirts_42: 1833218757
+      roguelikeChar_shirts_10: 1283092851
+      roguelikeChar_shirts_2: -655429283
+      roguelikeChar_shirts_86: -1537035930
+      roguelikeChar_shirts_57: 958243019
+      roguelikeChar_shirts_33: 1404639991
+      roguelikeChar_shirts_35: -1230736627
+      roguelikeChar_shirts_46: 130663237
+      roguelikeChar_shirts_70: -1972686660
+      roguelikeChar_shirts_5: 903430829
+      roguelikeChar_shirts_59: -1058052910
+      roguelikeChar_shirts_94: -1223226837
+      roguelikeChar_shirts_103: 810685495
+      roguelikeChar_shirts_44: 1935052417
+      roguelikeChar_shirts_73: -690793260
+      roguelikeChar_shirts_24: 2138573007
+      roguelikeChar_shirts_85: -1601047173
+      roguelikeChar_shirts_25: 983091315
+      roguelikeChar_shirts_92: 2009374211
+      roguelikeChar_shirts_77: 23298266
+      roguelikeChar_shirts_110: -7597487
+      roguelikeChar_shirts_108: 799980758
+      roguelikeChar_shirts_38: 1113206661
+      roguelikeChar_shirts_81: 38753238
+      roguelikeChar_shirts_16: -300217128
+      roguelikeChar_shirts_14: 2132851490
+      roguelikeChar_shirts_34: 407070690
+      roguelikeChar_shirts_49: -96357120
+      roguelikeChar_shirts_39: 111717646
+      roguelikeChar_shirts_79: -647895234
+      roguelikeChar_shirts_114: -1870317163
+      roguelikeChar_shirts_7: 1978103780
+      roguelikeChar_shirts_6: -812877938
+      roguelikeChar_shirts_26: 995606133
+      roguelikeChar_shirts_53: -320427254
+      roguelikeChar_shirts_47: 1401417598
+      roguelikeChar_shirts_55: -1980150592
+      roguelikeChar_shirts_115: 1847894857
+      roguelikeChar_shirts_62: -275446803
+      roguelikeChar_shirts_30: -1312996461
+      roguelikeChar_shirts_67: 41680634
+      roguelikeChar_shirts_54: -62174179
+      roguelikeChar_shirts_63: -707251253
+      roguelikeChar_shirts_104: -1234223996
+      roguelikeChar_shirts_21: 804689951
+      roguelikeChar_shirts_111: -2092223577
+      roguelikeChar_shirts_32: 751134713
+      roguelikeChar_shirts_0: -34575846
+      roguelikeChar_shirts_50: 2114125427
+      roguelikeChar_shirts_22: 1969567346
+      roguelikeChar_shirts_40: 91335316
+      roguelikeChar_shirts_72: 2079368881
+      roguelikeChar_shirts_89: 612866209
+      roguelikeChar_shirts_84: 223559549
+      roguelikeChar_shirts_82: -721959246
+      roguelikeChar_shirts_27: 596932216
+      roguelikeChar_shirts_118: -1051722194
+      roguelikeChar_shirts_71: -153881690
+      roguelikeChar_shirts_9: -535153641
+      roguelikeChar_shirts_28: 134393905
+      roguelikeChar_shirts_20: 1763156326
+      roguelikeChar_shirts_76: -1537365090
+      roguelikeChar_shirts_51: 1941906245
+      roguelikeChar_shirts_64: 363279055
+      roguelikeChar_shirts_119: 585942095
+      roguelikeChar_shirts_29: 1692557288
+      roguelikeChar_shirts_43: -1434217991
+      roguelikeChar_shirts_90: -203205811
+      roguelikeChar_shirts_93: 453991736
+      roguelikeChar_shirts_100: -1922530854
+      roguelikeChar_shirts_23: -1598848549
+      roguelikeChar_shirts_102: -1340371177
+      roguelikeChar_shirts_58: 2015036504
+      roguelikeChar_shirts_83: 947590928
+      roguelikeChar_shirts_117: 719384000
+      roguelikeChar_shirts_1: -2070454815
+      roguelikeChar_shirts_75: -733221016
+      roguelikeChar_shirts_101: -1968762404
+      roguelikeChar_shirts_105: 882827273
+      roguelikeChar_shirts_107: 158509857
+      roguelikeChar_shirts_74: -1448682053
+      roguelikeChar_shirts_99: -1884194090
+      roguelikeChar_shirts_37: 1781005322
+      roguelikeChar_shirts_113: -1945343593
+      roguelikeChar_shirts_48: 1418948838
+      roguelikeChar_shirts_60: 87964767
+      roguelikeChar_shirts_56: -2051280353
+      roguelikeChar_shirts_11: 76662844
+      roguelikeChar_shirts_41: 1809174436
+      roguelikeChar_shirts_45: 1222409461
+      roguelikeChar_shirts_19: 534358525
+      roguelikeChar_shirts_36: -457507244
+      roguelikeChar_shirts_98: -1070069631
+      roguelikeChar_shirts_66: -1833425633
+      roguelikeChar_shirts_15: -1913590365
+      roguelikeChar_shirts_31: 764275234
+      roguelikeChar_shirts_17: 207844803
+      roguelikeChar_shirts_116: -838528935
+      roguelikeChar_shirts_65: -29904686
+      roguelikeChar_shirts_80: -1477660385
+      roguelikeChar_shirts_96: 1734507246
+      roguelikeChar_shirts_106: -1596418461
+      roguelikeChar_shirts_109: -1041248002
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
