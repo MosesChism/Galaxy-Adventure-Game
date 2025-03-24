@@ -12,88 +12,98 @@ public class MathQuestionGenerator : MonoBehaviour
     public Button mainMenuButton;
     public Text feedbackText;
     public Text scoreText;
-    public GameObject stageCompletePanel; // Panel for stage completion
+    public GameObject stageCompletePanel;
 
     private int currentGrade;
+    private int currentStage;
     private int num1, num2, correctAnswer;
     private string currentOperation;
     private int questionCount = 0;
-    private int totalQuestions = 10; // Questions per stage
+    private int totalQuestions = 10;
     private int score = 0;
 
     void Start()
     {
-        // Get selected difficulty from GameManager
         currentGrade = GameManager.Instance.GetDifficulty();
+        currentStage = GameManager.Instance.CurrentStage; // ✅ Pull current stage from GameManager
         GenerateMathQuestion();
         UpdateScore();
     }
 
-   public void GenerateMathQuestion()
+    public void GenerateMathQuestion()
     {
         if (questionCount >= totalQuestions)
         {
-            // Stage Complete!
             StageComplete();
             return;
         }
 
         questionCount++;
 
-        switch (currentGrade)
+        // Stage 1 = Addition/Basic, Stage 2 = Multiplication Focus
+        if (currentStage == 1)
         {
-            case 1: // 1st Grade: Simple Addition (1-20)
-                num1 = Random.Range(1, 20);
-                num2 = Random.Range(1, 20);
-                currentOperation = "+";
-                correctAnswer = num1 + num2;
-                break;
-
-            case 2: // 2nd Grade: Addition & Subtraction (10-50)
-                num1 = Random.Range(10, 50);
-                num2 = Random.Range(10, 50);
-                currentOperation = (Random.value > 0.5f) ? "+" : "-";
-                correctAnswer = (currentOperation == "+") ? (num1 + num2) : (num1 - num2);
-                break;
-
-            case 3: // 3rd Grade: Add, Subtract, Multiply (20-100)
-                num1 = Random.Range(20, 100);
-                num2 = Random.Range(1, 5);
-                currentOperation = new string[] { "+", "-", "×" }[Random.Range(0, 3)];
-                correctAnswer = (currentOperation == "+") ? (num1 + num2) :
-                                (currentOperation == "-") ? (num1 - num2) :
-                                (num1 * num2);
-                break;
-
-            case 4: // 4th Grade: Add, Subtract, Multiply (50-500)
-                num1 = Random.Range(50, 500);
-                num2 = Random.Range(1, 10);
-                currentOperation = new string[] { "+", "-", "×" }[Random.Range(0, 3)];
-                correctAnswer = (currentOperation == "+") ? (num1 + num2) :
-                                (currentOperation == "-") ? (num1 - num2) :
-                                (num1 * num2);
-                break;
-
-            case 5: // 5th Grade: Add, Subtract, Multiply, Divide (100-1000)
-                num1 = Random.Range(100, 1000);
-                num2 = Random.Range(1, 10);
-                currentOperation = new string[] { "+", "-", "×", "÷" }[Random.Range(0, 4)];
-
-                if (currentOperation == "÷")
-                {
-                    num1 = num2 * Random.Range(1, 10); // Ensures whole numbers
-                    correctAnswer = num1 / num2;
-                }
-                else
-                {
+            switch (currentGrade)
+            {
+                case 1:
+                    num1 = Random.Range(1, 20);
+                    num2 = Random.Range(1, 20);
+                    currentOperation = "+";
+                    correctAnswer = num1 + num2;
+                    break;
+                case 2:
+                    num1 = Random.Range(10, 50);
+                    num2 = Random.Range(10, 50);
+                    currentOperation = (Random.value > 0.5f) ? "+" : "-";
+                    correctAnswer = (currentOperation == "+") ? (num1 + num2) : (num1 - num2);
+                    break;
+                case 3:
+                    num1 = Random.Range(20, 100);
+                    num2 = Random.Range(1, 5);
+                    currentOperation = new string[] { "+", "-", "×" }[Random.Range(0, 3)];
                     correctAnswer = (currentOperation == "+") ? (num1 + num2) :
                                     (currentOperation == "-") ? (num1 - num2) :
                                     (num1 * num2);
-                }
-                break;
+                    break;
+                case 4:
+                case 5:
+                    num1 = Random.Range(100, 500);
+                    num2 = Random.Range(10, 100);
+                    currentOperation = "+";
+                    correctAnswer = num1 + num2;
+                    break;
+            }
+        }
+        else if (currentStage == 2)
+        {
+            switch (currentGrade)
+            {
+                case 1:
+                    num1 = Random.Range(1, 5);
+                    num2 = Random.Range(1, 5);
+                    break;
+                case 2:
+                    num1 = Random.Range(1, 10);
+                    num2 = Random.Range(1, 10);
+                    break;
+                case 3:
+                    num1 = Random.Range(10, 50);
+                    num2 = Random.Range(1, 10);
+                    break;
+                case 4:
+                    num1 = Random.Range(50, 100);
+                    num2 = Random.Range(10, 20);
+                    break;
+                case 5:
+                    num1 = Random.Range(100, 999);
+                    num2 = Random.Range(10, 99);
+                    break;
+            }
+
+            currentOperation = "×";
+            correctAnswer = num1 * num2;
         }
 
-        // Update question text
         questionText.text = $"{num1} {currentOperation} {num2} = ?";
     }
 
@@ -105,7 +115,7 @@ public class MathQuestionGenerator : MonoBehaviour
             if (playerAnswer == correctAnswer)
             {
                 feedbackText.text = "✅ Correct!";
-                score += 10; // Increase score per correct answer
+                score += 10;
                 UpdateScore();
                 GenerateMathQuestion();
             }
@@ -119,7 +129,7 @@ public class MathQuestionGenerator : MonoBehaviour
             feedbackText.text = "⚠ Enter a valid number.";
         }
 
-        answerInput.text = ""; // Clear input field after submission
+        answerInput.text = "";
     }
 
     void UpdateScore()
@@ -130,19 +140,18 @@ public class MathQuestionGenerator : MonoBehaviour
     void StageComplete()
     {
         Debug.Log("Stage Complete!");
-        stageCompletePanel.SetActive(true); // Show stage complete UI
+        stageCompletePanel.SetActive(true);
     }
 
     public void ContinueToNextStage()
     {
-        currentGrade++; // Increase difficulty
-        questionCount = 0; // Reset question count
-        stageCompletePanel.SetActive(false); // Hide completion UI
-        GenerateMathQuestion(); // Start next stage
+        GameManager.Instance.AdvanceStage(); // ✅ Go to next stage
+        SceneManager.LoadScene("GStage2");
     }
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu"); // Load main menu scene
+        GameManager.Instance.ResetStage(); // ✅ Reset stage on return
+        SceneManager.LoadScene("MainMenu");
     }
 }

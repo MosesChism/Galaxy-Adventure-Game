@@ -727,7 +727,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 209.38716
+  orthographic size: 204.25214
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1308744552
 Canvas:
   m_ObjectHideFlags: 0
